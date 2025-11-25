@@ -1,0 +1,36 @@
+const routeConfig = {
+  home: '/',
+  explore: '/explore',
+  player: '/watch/:id',
+  login: '/login',
+  register: '/register',
+  forgotPassword: '/forgot-password',
+  verifyEmail: '/verify-email',
+  profile: '/profile',
+  settings: '/settings',
+  search: '/search',
+  notifications: '/notifications',
+  subscription: '/subscription',
+  billing: '/billing-history',
+  help: '/help',
+  faq: '/faq',
+  about: '/about',
+  contact: '/contact',
+  admin: {
+    dashboard: '/admin',
+    videos: '/admin/videos',
+    users: '/admin/users',
+    categories: '/admin/categories',
+    reports: '/admin/reports',
+    settings: '/admin/settings',
+    logs: '/admin/logs',
+    plans: '/admin/plans',
+  },
+  legal: {
+    privacy: '/privacy',
+    terms: '/terms',
+  },
+  notFound: '*',
+};
+
+export default routeConfig;

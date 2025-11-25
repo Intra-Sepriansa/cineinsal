@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "save": "Simpan",
+    "cancel": "Batal"
+  },
+  "nav": {
+    "home": "Beranda",
+    "explore": "Jelajahi",
+    "profile": "Profil",
+    "settings": "Pengaturan"
+  },
+  "auth": {
+    "login": "Masuk",
+    "register": "Daftar",
+    "logout": "Keluar"
+  }
+}

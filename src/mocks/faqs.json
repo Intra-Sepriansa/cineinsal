@@ -1,0 +1,17 @@
+[
+  {
+    "id": "f1",
+    "question": "How do I cancel my subscription?",
+    "answer": "You can cancel your subscription anytime from the Settings page under the Subscription tab."
+  },
+  {
+    "id": "f2",
+    "question": "Can I watch on multiple devices?",
+    "answer": "Yes, the Premium plan supports up to 4 simultaneous screens."
+  },
+  {
+    "id": "f3",
+    "question": "Is there a free trial?",
+    "answer": "Yes, we offer a 7-day free trial for new users."
+  }
+]

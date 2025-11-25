@@ -1,0 +1,9 @@
+[
+  { "id": "c1", "name": "All", "slug": "all" },
+  { "id": "c2", "name": "Education", "slug": "education" },
+  { "id": "c3", "name": "Sci-Fi", "slug": "sci-fi" },
+  { "id": "c4", "name": "Documentary", "slug": "documentary" },
+  { "id": "c5", "name": "Comedy", "slug": "comedy" },
+  { "id": "c6", "name": "Drama", "slug": "drama" },
+  { "id": "c7", "name": "Action", "slug": "action" }
+]

@@ -1,0 +1,10 @@
+/* Additional global theme overrides if needed */
+.text-gradient {
+  background: linear-gradient(to right, #00D1FF, #4F46E5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-brand {
+  background: linear-gradient(135deg, #050816 0%, #0f172a 100%);
+}

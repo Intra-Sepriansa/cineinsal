@@ -1,0 +1,12 @@
+{
+  "id": "u1",
+  "email": "user@example.com",
+  "name": "John Doe",
+  "avatarUrl": "https://via.placeholder.com/150",
+  "role": "user",
+  "subscriptionStatus": "active",
+  "preferences": {
+    "emailNotifications": true,
+    "language": "en"
+  }
+}

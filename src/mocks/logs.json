@@ -1,0 +1,5 @@
+[
+  { "id": "l1", "action": "User Login", "user": "user@example.com", "timestamp": "2023-11-22T08:00:00Z", "status": "success" },
+  { "id": "l2", "action": "Video Upload", "user": "admin@cineinsal.com", "timestamp": "2023-11-21T14:20:00Z", "status": "success" },
+  { "id": "l3", "action": "Failed Login", "user": "unknown@example.com", "timestamp": "2023-11-21T10:15:00Z", "status": "failure" }
+]

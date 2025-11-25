@@ -1,0 +1,26 @@
+[
+  {
+    "id": "free",
+    "name": "Free",
+    "price": 0,
+    "currency": "USD",
+    "interval": "month",
+    "features": ["Ad-supported streaming", "SD Quality", "1 Device"]
+  },
+  {
+    "id": "basic",
+    "name": "Basic",
+    "price": 4.99,
+    "currency": "USD",
+    "interval": "month",
+    "features": ["No Ads", "HD Quality", "2 Devices"]
+  },
+  {
+    "id": "premium",
+    "name": "Premium",
+    "price": 9.99,
+    "currency": "USD",
+    "interval": "month",
+    "features": ["No Ads", "4K Ultra HD", "4 Devices", "Offline Downloads"]
+  }
+]

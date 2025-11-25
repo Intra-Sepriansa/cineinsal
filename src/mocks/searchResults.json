@@ -1,0 +1,14 @@
+[
+  {
+    "id": "v1",
+    "title": "Introduction to React Hooks",
+    "type": "video",
+    "thumbnailUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "v3",
+    "title": "The Future of AI in 2024",
+    "type": "video",
+    "thumbnailUrl": "https://via.placeholder.com/150"
+  }
+]

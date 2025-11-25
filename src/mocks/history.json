@@ -1,0 +1,14 @@
+[
+  {
+    "videoId": "v1",
+    "title": "Introduction to React Hooks",
+    "watchedAt": "2023-11-21T18:30:00Z",
+    "progress": 0.8
+  },
+  {
+    "videoId": "v2",
+    "title": "Advanced CSS Grid Layouts",
+    "watchedAt": "2023-11-20T20:15:00Z",
+    "progress": 0.3
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "totalViews": 150000,
+  "activeUsers": 1200,
+  "revenue": 5400.50,
+  "viewsOverTime": [
+    { "date": "2023-11-01", "views": 4000 },
+    { "date": "2023-11-02", "views": 4500 },
+    { "date": "2023-11-03", "views": 3000 },
+    { "date": "2023-11-04", "views": 6000 },
+    { "date": "2023-11-05", "views": 7500 }
+  ]
+}

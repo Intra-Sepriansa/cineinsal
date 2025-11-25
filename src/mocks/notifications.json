@@ -1,0 +1,28 @@
+[
+  {
+    "id": "n1",
+    "title": "Welcome to CineInSal!",
+    "message": "Thanks for joining our platform. Start exploring now!",
+    "type": "info",
+    "read": false,
+    "createdAt": "2023-11-20T10:00:00Z"
+  },
+  {
+    "id": "n2",
+    "title": "New Episode Available",
+    "message": "A new episode of 'Future of AI' is now available.",
+    "type": "success",
+    "read": true,
+    "createdAt": "2023-11-18T15:30:00Z",
+    "link": "/watch/v3"
+  },
+  {
+    "id": "n3",
+    "title": "Subscription Expiring Soon",
+    "message": "Your premium subscription will expire in 3 days.",
+    "type": "warning",
+    "read": false,
+    "createdAt": "2023-11-21T09:00:00Z",
+    "link": "/subscription"
+  }
+]
