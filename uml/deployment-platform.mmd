@@ -1,0 +1,49 @@
+flowchart TB
+  subgraph Client[User Device]
+    Browser[Browser]
+  end
+
+  subgraph CDN[CDN / Static Hosting]
+    FrontBundle[Frontend bundle]
+  end
+
+  Edge[Edge / API Gateway]
+
+  subgraph Backend[Backend Cluster]
+    AuthPod[Auth Pod]
+    CatalogPod[Catalog Pod]
+    PayPod[Payment Pod]
+    NotifyPod[Notify Pod]
+    PlayerPod[Player Token Pod]
+  end
+
+  DB[(Main DB)]
+  Cache[(Redis Cache)]
+  Storage[(Object Storage)]
+  MQ[(Message Queue)]
+  PayProvider[Payment Provider]
+  CommProvider[Email/SMS Provider]
+  StreamCDN[Video CDN]
+
+  Browser --> FrontBundle
+  Browser --> Edge
+  Edge --> AuthPod
+  Edge --> CatalogPod
+  Edge --> PayPod
+  Edge --> NotifyPod
+  Edge --> PlayerPod
+
+  AuthPod --> DB
+  CatalogPod --> DB
+  CatalogPod --> Cache
+  PayPod --> DB
+  NotifyPod --> DB
+
+  PayPod --> PayProvider
+  NotifyPod --> CommProvider
+  PlayerPod --> StreamCDN
+  PlayerPod --> Storage
+
+  Backend --> MQ
+  MQ --> CatalogPod
+  MQ --> NotifyPod

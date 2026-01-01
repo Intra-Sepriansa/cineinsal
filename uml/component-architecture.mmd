@@ -1,0 +1,16 @@
+flowchart LR
+  User[User] --> FE[Frontend (React/Vite)]
+  FE --> BFF[Gateway / BFF]
+
+  BFF --> Auth[Auth Service]
+  BFF --> Catalog[Catalog Service]
+  BFF --> Player[Player Service]
+  BFF --> Notify[Notification Service]
+  BFF --> Billing[Billing Service]
+
+  Auth --> DB[(Main Database)]
+  Catalog --> DB
+  Notify --> DB
+  Billing --> Pay[Payment Provider]
+  Player --> CDN[(CDN / Object Storage)]
+  Notify --> Comm[Email/SMS Provider]

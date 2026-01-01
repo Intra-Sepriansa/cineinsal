@@ -1,0 +1,10 @@
+stateDiagram-v2
+  [*] --> Idle
+  Idle --> Loading : select video
+  Loading --> Playing : stream ready
+  Playing --> Paused : pause
+  Paused --> Playing : resume
+  Playing --> Finished : end
+  Playing --> Error : stream error
+  Error --> Idle : retry or exit
+  Finished --> Idle : back to home

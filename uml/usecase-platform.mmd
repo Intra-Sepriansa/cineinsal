@@ -1,0 +1,17 @@
+flowchart LR
+  Guest([Guest]) --> UC_Browse((Browse catalog))
+  Guest --> UC_Search((Search & filter))
+  Guest --> UC_Preview((Watch trailer))
+  Guest --> UC_Auth((Sign in / Sign up))
+
+  Member([Member]) --> UC_Play((Play video))
+  Member --> UC_Watchlist((Manage watchlist))
+  Member --> UC_Profile((Manage profile))
+  Member --> UC_Billing((Manage billing))
+  Member --> UC_Notify((Receive notifications))
+
+  Admin([Admin]) --> UC_AdminContent((Manage catalog))
+  Admin --> UC_AdminUsers((Manage users))
+  Admin --> UC_AdminPlans((Manage plans))
+  Admin --> UC_AdminReports((Review reports))
+  Admin --> UC_Auth

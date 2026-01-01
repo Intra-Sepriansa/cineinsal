@@ -1,0 +1,23 @@
+sequenceDiagram
+  autonumber
+  actor User
+  participant FE as Frontend (React/Vite)
+  participant Auth as Auth Service
+  participant Catalog as Catalog Service
+  participant Player as Stream Service
+
+  User->>FE: Open video page
+  FE->>Auth: Validate session
+  alt No active session
+    Auth-->>FE: Not authenticated
+    FE-->>User: Show login or register
+    User->>FE: Submit credentials
+    FE->>Auth: Login or register
+    Auth-->>FE: Access token
+  end
+
+  FE->>Catalog: Fetch video details
+  Catalog-->>FE: Metadata + access
+  FE->>Player: Request stream token
+  Player-->>FE: Stream URL
+  FE-->>User: Start playback

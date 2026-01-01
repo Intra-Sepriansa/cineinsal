@@ -1,0 +1,37 @@
+classDiagram
+  class User {
+    +UUID id
+    +string email
+    +string role
+  }
+
+  class Video {
+    +UUID id
+    +string title
+    +string category
+    +int durationSeconds
+  }
+
+  class Subscription {
+    +UUID id
+    +string plan
+    +string status
+    +date renewalDate
+  }
+
+  class WatchlistItem {
+    +UUID id
+    +date addedAt
+  }
+
+  class PlaybackHistory {
+    +UUID id
+    +int progressSeconds
+    +date lastPlayedAt
+  }
+
+  User "1" --> "0..1" Subscription
+  User "1" --> "0..*" WatchlistItem
+  User "1" --> "0..*" PlaybackHistory
+  WatchlistItem "1" --> "1" Video
+  PlaybackHistory "1" --> "1" Video

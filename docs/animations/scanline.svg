@@ -1,0 +1,12 @@
+<svg width="1200" height="24" viewBox="0 0 1200 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C6FF" />
+      <stop offset="50%" stop-color="#F857A6" />
+      <stop offset="100%" stop-color="#F7971E" />
+    </linearGradient>
+  </defs>
+  <path d="M0 12 C 150 2, 300 22, 450 12 C 600 2, 750 22, 900 12 C 1050 2, 1200 22, 1200 12" stroke="url(#line)" stroke-width="4" fill="none" stroke-dasharray="10 12">
+    <animate attributeName="stroke-dashoffset" values="0;88" dur="4s" repeatCount="indefinite" />
+  </path>
+</svg>

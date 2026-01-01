@@ -1,0 +1,40 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF">
+        <animate attributeName="stop-color" values="#00C6FF;#F7971E;#00C6FF" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7B2FF7">
+        <animate attributeName="stop-color" values="#7B2FF7;#F857A6;#7B2FF7" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)" />
+
+  <circle cx="200" cy="90" r="120" fill="url(#glow)">
+    <animate attributeName="cx" values="200;260;200" dur="8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="980" cy="200" r="140" fill="url(#glow)">
+    <animate attributeName="cy" values="200;160;200" dur="10s" repeatCount="indefinite" />
+  </circle>
+
+  <g opacity="0.35">
+    <circle cx="100" cy="220" r="6" fill="#FFFFFF">
+      <animate attributeName="cx" values="100;1100;100" dur="18s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1100" cy="50" r="4" fill="#FFFFFF">
+      <animate attributeName="cx" values="1100;100;1100" dur="16s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g opacity="0.25">
+    <rect x="0" y="210" width="1200" height="70" fill="#000000">
+      <animate attributeName="opacity" values="0.2;0.35;0.2" dur="6s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+flowchart TD
+  Start([Start]) --> Home[Open landing]
+  Home --> AuthDecision{Logged in?}
+  AuthDecision -- No --> AuthChoice{Login or register?}
+  AuthChoice -- Login --> Login[Submit credentials]
+  AuthChoice -- Register --> Register[Create account + verify]
+  Login --> AuthResult{Auth ok?}
+  Register --> AuthResult
+  AuthResult -- No --> Fail[Show error]
+  Fail --> End([End])
+  AuthResult -- Yes --> Explore[Browse / search]
+  AuthDecision -- Yes --> Explore
+  Explore --> Detail[Open detail + trailer]
+  Detail --> SubDecision{Subscription active?}
+  SubDecision -- Yes --> Play[Play video]
+  SubDecision -- No --> Pay[Choose plan + pay]
+  Pay --> PayResult{Payment success?}
+  PayResult -- No --> FailPay[Show payment failed]
+  FailPay --> End
+  PayResult -- Yes --> Play
+  Play --> Manage[Manage watchlist/history]
+  Manage --> Notify[Receive notifications]
+  Notify --> End

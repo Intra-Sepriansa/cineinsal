@@ -1,0 +1,24 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orbit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C6FF" />
+      <stop offset="100%" stop-color="#F857A6" />
+    </linearGradient>
+  </defs>
+
+  <g opacity="0.5">
+    <circle cx="600" cy="60" r="46" stroke="url(#orbit)" stroke-width="2" />
+    <circle cx="600" cy="60" r="70" stroke="#F7971E" stroke-width="1.5" stroke-dasharray="6 6" />
+    <circle cx="600" cy="60" r="90" stroke="#7B2FF7" stroke-width="1" stroke-dasharray="4 8" />
+  </g>
+
+  <circle r="6" fill="#FFFFFF">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M600 60 m -46 0 a 46 46 0 1 0 92 0 a 46 46 0 1 0 -92 0" />
+  </circle>
+  <circle r="4" fill="#F857A6">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M600 60 m -70 0 a 70 70 0 1 1 140 0 a 70 70 0 1 1 -140 0" />
+  </circle>
+  <circle r="3" fill="#F7971E">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M600 60 m -90 0 a 90 90 0 1 0 180 0 a 90 90 0 1 0 -180 0" />
+  </circle>
+</svg>
