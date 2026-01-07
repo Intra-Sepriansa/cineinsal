@@ -254,7 +254,9 @@ npm run test
 - `npm run preview` - preview build
 - `npm run lint` - lint code
 - `npm run test` - run tests
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Animated footer" />
+</div>
 ## Data and Docs
 - Mock data ada di `src/mocks/` untuk simulasi API.
 - UML tambahan dan PlantUML lain ada di `docs/`.
