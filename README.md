@@ -259,3 +259,6 @@ npm run test
 - Mock data ada di `src/mocks/` untuk simulasi API.
 - UML tambahan dan PlantUML lain ada di `docs/`.
 - UML Mermaid yang non-sensitive ada di `uml/`.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Animated footer" />
+</div>
